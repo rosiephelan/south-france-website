@@ -21,7 +21,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: black;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -48,7 +48,8 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 2.5rem;
   }
   #mainNav .nav-link {
     -webkit-transition: none;
@@ -108,7 +109,7 @@
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   color: black;
-  background: -webkit-linear-gradient(rgba(100, 189, 241, 0.9), rgba(100, 180, 250, 0.9));
+  background: -webkit-linear-gradient rgba(100, 189, 241, 0.9), rgba(100, 180, 250, 0.9));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -321,10 +322,10 @@ footer {
 
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 8px;
   border: 1px solid #ccc;
   margin-top: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   resize: vertical;
 }
 
@@ -339,11 +340,16 @@ input[type=submit]:hover {
   padding: 10px;
 }
 
+.container .contact h2 {
+  color: rgba(100, 189, 241, 0.9);
+}
+
 /* Create two columns that float next to eachother */
 .column {
   float: left;
-  width: 50%;
+  width: 100%;
   margin-top: 6px;
+  margin-bottom: 20px
   padding: 20px;
 }
 
@@ -364,8 +370,12 @@ input[type=submit]:hover {
 .form {
   -webkit-column-span: all; /* Chrome, Safari, Opera */
   column-span: all;
+  padding-bottom: 40px;
 }
 
+.card {
+  background-color: rgba(100, 189, 241, 0.9);
+}
 #footer {
   position: absolute;
   bottom: 0;
