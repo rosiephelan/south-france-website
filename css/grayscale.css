@@ -93,10 +93,6 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  color:
-  background-image: url("img/vertical-waves.png")
-  <!--background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("img/vertical-waves.png");-->
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("..img/vertical-waves.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -109,14 +105,18 @@
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   color: black;
-  background: -webkit-linear-gradient rgba(100, 189, 241, 0.9), rgba(100, 180, 250, 0.9));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -218,6 +218,9 @@
     border-width: .25rem;
     width: 30%;
   }
+
+#projects{
+  background-color: #1d2f2f;
 }
 
 .signup-section {

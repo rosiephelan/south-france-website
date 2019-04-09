@@ -21,6 +21,17 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
   <link href="css/grayscale.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137562529-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-137562529-1');
+</script>
 
 </head>
 
@@ -59,20 +70,25 @@
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about-section text-center">
+  <section id="about" class="text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="mb-4 text-white">Visit on a budget.</h2>
-          <p class="text-white-50">Here you can find some holiday destinations in Southern France, which you can visit cheaply.</p>
+          <hr>
+          <h2 class="mb-4 text-black">Visit on a budget.</h2>
+          <p class="text-black-50">Here you can find some holiday destinations in Southern France, which you can visit cheaply.</p>
         </div>
       </div>
-      <img src="img/port-masthead.jpg" class="img-fluid" alt="Port Image">
+
+      <div class="container port-masthead">
+        <img src="img/port-masthead.jpg" class="img-fluid" alt="Port Image">
+      </div>
     </div>
+    <hr>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light">
+  <section id="projects" class="projects-section">
     <div class="container">
 
       <!-- Featured Project Row -->
@@ -82,8 +98,8 @@
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Marseille</h4>
-            <p class="text-black-50 mb-0">Situated on the South-East coast of France, is the second largest city in France, <em>Marseille</em>.</p>
+            <h2>Marseille</h2>
+            <p class="text-50 mb-0">Situated on the South-East coast of France, is the second largest city in France, <em>Marseille</em>.</p>
           </div>
         </div>
       </div>
@@ -94,12 +110,20 @@
           <img class="img-fluid" src="img/marseille-port.jpg" alt="Marseille Port">
         </div>
         <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
+          <div class="text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Marseille City Centre</h4>
-                <p class="mb-0 text-white-50">In the centre of the city is the Old Port, and in the surrounding area you can find a wide range of cultural landmarks, museums, and the classic French streetview cafés on every street.<br>
+                <h4>Marseille City Centre</h4>
+                <p class="mb-0">In the centre of the city is the Old Port, and in the surrounding area you can find a wide range of cultural landmarks, museums, and the classic French streetview cafés on every street.<br>
                   There are a huge amount of apartments dotted around the port, most of which can be found on <a href="https://www.airbnb.co.uk/s/Marseille/homes?query=Marseille%20homes&adults=0&children=0&infants=0&guests=0&refinement_paths%5B%5D=%2Fhomes&search_type=UNKNOWN&allow_override%5B%5D=&s_tag=TwYpNoti" target="_blank">Airbnb</a>, for reasonable prices.<br>
+                  <br><strong>Activities you can do for free in the city centre:</strong>
+                  <br>
+                  <ul>
+                    <li>- The <a href="http://www.mucem.org/" target="_blank">Mucem</a> is free entry and has great views to the sea.</li>
+                    <li>- 19th century-built <a href="http://palaisdupharo.marseille.fr/" target="_blank">Pharo Palace</a>.</li>
+                    <li>- <a href="https://www.dezeen.com/2014/09/15/le-corbusier-unite-d-habitation-cite-radieuse-marseille-brutalist-architecture/" target="_blank">Cité Radieuse- Le Corbusier</a> built by famous Swiss architect Charles-Edouard Jeanneret in 1947 and 1951.</li>
+                    <li>- The art-filled streets of Marseille's oldest quarter <a href="https://www.lepanierdemarseille.com/visit-le-panier-old-city-marseille" target="_blank">Le Panier</a>.</li>
+                  </ul>
                 </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
@@ -114,11 +138,11 @@
           <img class="img-fluid" src="img/marseille-sormiou.jpg" alt="Sormiou Beach">
         </div>
         <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
+          <div class="text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">The Calanques</h4>
-                <p class="mb-0 text-white-50">Via short bus ride or drive, from Marseille centre you can reach the 'Calanques'. Within the coastal national parks are these amazing beaches and bays, and due to the fact they are on protected land, a hike is often necessary in order to find them.</p>
+                <h4>The Calanques</h4>
+                <p class="mb-0 text-50">Via short bus ride or drive, from Marseille centre you can reach the 'Calanques'. Within the coastal national parks are these amazing beaches and bays, and due to the fact they are on protected land, a hike is often necessary in order to find them.</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -126,9 +150,10 @@
         </div>
       </div>
     </div>
+    <hr>
   </section>
 
-  <section id="projects" class="projects-section bg-light">
+  <section id="projects" class="projects-section">
     <div class="container">
 
       <!-- Featured Project Row -->
@@ -138,8 +163,8 @@
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Montpellier</h4>
-            <p class="text-black-50 mb-0">The historical town of Montpellier, also on the Southeast coast of France is another destination that can be visited on a budget.</p>
+            <h2>Montpellier</h2>
+            <p class="text-50 mb-0">The historical town of Montpellier, also on the Southeast coast of France is another destination that can be visited on a budget.</p>
           </div>
         </div>
       </div>
@@ -150,11 +175,11 @@
           <img class="img-fluid" src="img/montpellier-street.jpg" alt="Montpellier Street">
         </div>
         <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
+          <div class="text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Montpellier Town</h4>
-                <p class="mb-0 text-white-50">Within the historical centre, there are public parks, a free-entry botanical garden, free-entry museums and cathedrals, as well as the many bars and clubs thanks to it being a university town.</p>
+                <h4>Montpellier Town</h4>
+                <p class="mb-0 text-50">Within the historical centre, there are public parks, a free-entry botanical garden, free-entry museums and cathedrals, as well as the many bars and clubs thanks to it being a university town.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -168,13 +193,18 @@
           <img class="img-fluid" src="img/devils.jpg" alt="Pont du Diable">
         </div>
         <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
+          <div class="text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">The Surrounding Countryside</h4>
-                <p class="mb-0 text-white-50">Regular buses, or trams run to surrounding towns and countryside where there are lots of free experiences. <b>
+                <h4>The Surrounding Countryside</h4>
+                <p class="mb-0 text-50">Regular buses, or trams run to surrounding towns and countryside where there are lots of free experiences.
                   At the Hérault gorges, is Pont du Diable, where there is a bridge above a gorge with a beach and many jumping points and places to swim in the below river.<br>
-                  The natural site, Pic Saint Loup is a popular hike with beautiful views along the way.</p>
+                  <br><strong>Countryside spots</strong><br>
+                  <ul>
+                    <li>- <a href="https://www.tripadvisor.co.uk/Attraction_Review-g187153-d592962-Reviews-Pic_St_Loup-Montpellier_Herault_Occitanie.html" target="_blank">Pic Saint Loup</a> is a popular natural site and hike.</li>
+                    <li>- The <a href="https://www.montpellier-france.com/Prepare-Book/Discoveries/In-the-region/Natural-sites/The-Camargue" target="_blank">Camargue</a> lakes and wildflife</li>
+                  </ul>
+                    </p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
                 </div>
               </div>
@@ -182,9 +212,10 @@
           </div>
         </div>
       </div>
+      <hr>
     </section>
 
-    <section id="projects" class="projects-section bg-light">
+    <section id="projects" class="projects-section">
       <div class="container">
 
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
@@ -193,8 +224,8 @@
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
-              <h4>Biarritz</h4>
-              <p class="text-black-50 mb-0">A surf town on the Southwestern Basque coast, which is known for being expensive but can be done on a smaller budget.</p>
+              <h2>Biarritz</h2>
+              <p class="text-50 mb-0">A surf town on the Southwestern Basque coast, which is known for being expensive but can be done on a smaller budget.</p>
             </div>
           </div>
         </div>
@@ -205,11 +236,11 @@
             <img class="img-fluid" src="img/biarritz-beach.jpg" alt="Biarritz Port">
           </div>
           <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
+            <div class="text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">The beaches</h4>
-                  <p class="mb-0 text-white-50">Although Biarritz is largely known for being a surfing town with a lot of local surf schools, there are some amazing swimmer-only beaches which won't involve the cost of equipment rental or lessons. For example Plage Port Vieux is a swimmer beach sheltered from the waves and wind, right near the town centre, and you can also find Grande Plage in the centre, and Plage Milady which are also both great for swimmers.<br> If you're not too interested in surfing, or it is not something within your budget, the local beaches are equally great for non-surfers. There are walking and cycling trails along the rocky beaches, and you can visit the 'Rocher de la Vierge' a statue on a rock out at sea with views across the town and beach, which can be accessed by walking over the 'Eiffel Bridge' over the sea.</p>
+                  <h4>The beaches</h4>
+                  <p class="mb-0 text-50">Although Biarritz is largely known for being a surfing town, there are some amazing swimmer-only beaches which won't involve the cost of equipment rental or lessons. For example Plage Port Vieux is a swimmer beach sheltered from the waves and wind, right near the town centre, and you can also find Grande Plage in the centre, and Plage Milady which are also both great for swimmers.<br> If you're not too interested in surfing, or it is not something within your budget, the local beaches are equally great for non-surfers. There are walking and cycling trails along the rocky beaches, and you can visit the 'Rocher de la Vierge' a statue on a rock out at sea with views across the town and beach, which can be accessed by walking over the 'Eiffel Bridge' over the sea.</p>
                   <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
               </div>
@@ -223,11 +254,11 @@
             <img class="img-fluid" src="img/biarritz-port.jpg" alt="Biarritz Port">
           </div>
           <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
+            <div class="text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Accommodation and Eating</h4>
-                  <p class="mb-0 text-white-50">Biarritz is sometimes considered a destination for the wealthy, there are a lot of expensive restaurants, shops and bars, but there are many self-catering apartments available in the area which are reasonable.<br>
+                  <h4>Accommodation and Eating</h4>
+                  <p class="mb-0 text-50">Biarritz is sometimes considered a destination for the wealthy, there are a lot of expensive restaurants, shops and bars, but there are many self-catering apartments available in the area which are reasonable.<br>
                     Smaller and slightly cheaper restaurants and bars can also be found a little further out than the centre, for example <a href="https://www.dinopizzabiarritz.fr/">Dino Pizza</a>.</p>
                     <hr class="d-none d-lg-block mb-0 mr-0">
                   </div>
@@ -235,10 +266,11 @@
               </div>
             </div>
           </div>
-
         </div>
+        <hr>
       </section>
 
+    
 
       <div class="social d-flex justify-content-center">
         <a href="#" class="mx-2">
