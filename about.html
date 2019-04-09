@@ -21,6 +21,17 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
   <link href="css/grayscale.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137562529-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137562529-1');
+  </script>
 
 </head>
 
@@ -34,6 +45,9 @@
         Menu
         <i class="fas fa-bars"></i>
       </button>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="index.html">Locations</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="about.html">About</a>
       </li>
@@ -64,23 +78,27 @@
     <div>
       <p>Email me at <a href="mailto:rosiephelan@hotmail.co.uk">rosiephelan@hotmail.co.uk</a>. Or alternatively send me a message via the form below: <br>
 
+    <ul>
       <div class="form">
         <form action="/action_page.php" method="POST">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <input type="text" id="email" name="email" placeholder="Your email.."
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
-          <input type="submit" value="Submit">
+          <li><label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.."></li>
+        <li><label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.."></li>
+        <li><label type="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email.."></li>
+        <li><label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea></li>
+          <li><input type="submit" value="Submit"></li>
         </form>
     </div>
+  </ul>
   </div>
 </div>
   </section>
 
-  <section id="projects" class="projects-section bg-light">
+<section id="projects" class="projects-section">
+  <hr>
     <div class="container">
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
